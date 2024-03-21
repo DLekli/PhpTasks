@@ -1,0 +1,143 @@
+#leftNavBar {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333040;
+    color: #ffffff;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    z-index: 999; /* Ensure it's on top */
+    overflow-y: auto; /* Add scrollbar if content exceeds height */
+    padding: 20px;
+}
+
+/* Adjust padding for the content area to avoid overlapping */
+.tasks-index {
+    
+    padding-left: 100px; /* Adjust as needed */
+}
+
+
+
+
+.colorful-navigation {
+    position: absolute;
+    top: 80px; /* Adjust the top position as needed */
+    left: 440px; /* Adjust the left position to move it more to the left */
+    
+    display: flex;
+    gap: 20px;
+}
+
+.colorBoxes {
+    height: 140px;
+    width: 140px;
+    background-color: #333040;
+    color: #ffffff;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 40px; /* Increase padding top */
+    flex: 1;
+}
+
+.colorBoxes i {
+    font-size: 36px;
+}
+
+.colorButtonTitle {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.colorBoxes:hover {
+    background-color: transparent; /* Added transparent background on hover for consistent behavior */
+}
+
+#greenBox {
+    background-color: #40FFB0;
+    border: solid;
+    border-color: #40FFB0;
+}
+
+#greenBox:hover {
+    color: #40FFB0; /* Changed color on hover to match background */
+}
+
+#blueBox {
+    background-color: #60E1FF;
+    border: solid;
+    border-color: #60E1FF;
+}
+
+#blueBox:hover {
+    color: #60E1FF; /* Changed color on hover to match background */
+}
+
+#redBox {
+    background-color: #FF5043;
+    border: solid;
+    border-color: #FF5043;
+}
+
+#redBox:hover {
+    color: #FF5043; /* Changed color on hover to match background */
+}
+
+#yellowBox {
+    background-color: #FFC452;
+    border: solid;
+    border-color: #FFC452;
+}
+
+#yellowBox:hover {
+    color: #FFC452; /* Changed color on hover to match background */
+}
+
+i {
+    font-size: 63px !important; 
+    text-align: center !important;
+    margin: 35px 5px 0px 55px;
+}
+
+.colorButtonTitle {
+    margin: 0px 0px 0px 20px;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.navTitles {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.subTitleNav {
+    margin: 0px 0px 0px 25px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.hoveringFUN {
+    height: 30px;
+    padding: 10px 0px 5px 0px;
+    text-decoration: none;
+}
+
+.hoveringFUN:hover {
+    background-color: #211F29;
+    height: 30px;
+    padding: 10px 0px 5px 0px;
+    border-right: solid 10px;
+    border-color: #E8C42E;
+    font-weight: bold;
+}
